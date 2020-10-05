@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    text-decoration: none;
+    list-style: none;
+    
+
+}
+
+body{
+    background: url(/fond.png);
+    
+
+}
+.site{
+    
+    background-color: white;
+    
+    margin: 0% 30% 0% 30%;
+    height: auto;
+}
+
+nav{
+   
+    background-color: rgb(184, 203, 33);
+    height: 200px;
+    margin-top: 0;
+}
+
+.logo{
+   
+    position: relative;
+    padding: 30px 0 0px 40px;
+    margin: 0;
+    float:left;
+
+}
+
+.nav-menu{
+    position: relative;
+    padding-top: 70px;
+    margin-left: 40%;
+    
+}
+li{
+    position: relative;
+    display: inline-block;
+    padding: 2%;
+    
+    font-family: 'Lucida Sans Regular',sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color:rgb(66, 66, 66);
+
+    text-transform: uppercase;
+}
+
+section{
+    padding: 5% 5% 5% 5%;
+}
+
+
+h1{
+    color: rgb(89, 165, 27);
+    font-size: 1.2em;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-left: 20px ;
+}
+.image{
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin:20px;
+    padding: 0;
+
+}
+section p{
+padding-top: 16px;
+padding-left: 20px;
+}
+
+button{
+    position: relative;;
+    float: right;
+    width: 8vw;
+    height: 5vh;
+    background-color: rgb(209, 226, 83);
+    
+    color: white;
+    
+    overflow: clear;
+    
+
+
+}
